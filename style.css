@@ -3,3 +3,61 @@
   padding: 0;
   box-sizing: border-box;
 }
+html, body{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: #2e8b57;
+  color: #fff;
+}
+
+/* Header */
+header {
+  background-color: #ffffff;
+  position: sticky;
+  border-bottom: 1px solid #e6e6e6;
+  padding: 1rem 2rem;
+  color: #222;
+  display: flex;
+  
+}
+.main {
+  background-color: #2e8b57;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 60px;
+  border-bottom: 1px solid #ddd;
+}
+header h1 {
+  font-size: 1.5;
+
+}
+
+.card {
+  width: 250px;
+  height: 300px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;;
+  gap: 30px
+}
+nav a {
+  text-decoration: none;
+  color: #111;
+  font-weight: 0.9em
+}
+.card-section {
+  background-color: aqua;
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px
+}
